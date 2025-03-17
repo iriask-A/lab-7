@@ -2,9 +2,9 @@ import pygame
 
 pygame.init()
 screen = pygame.display.set_mode((800, 600))
-clock_img = pygame.image.load("clock.png").convert()
-min_hand = pygame.image.load("min_hand.png").convert()
-sec_hand = pygame.image.load("sec_hand.png").convert()
+clock_img = pygame.image.load("images/clock.png").convert()
+min_hand = pygame.image.load("images/min_hand.png").convert()
+sec_hand = pygame.image.load("images/sec_hand.png").convert()
 min_hand.set_colorkey((0, 0, 0))
 sec_hand.set_colorkey((0, 0, 0))
 min_hand = pygame.transform.scale(min_hand, (600, 600))  
