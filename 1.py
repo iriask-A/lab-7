@@ -25,12 +25,8 @@ while running:
     screen.blit(clock_img, (0, 0))
     screen.blit(rotated_min_hand, min_rect.topleft)
     screen.blit(rotated_sec_hand, sec_rect.topleft)
-
     pygame.display.flip()
-
     min_angle -= 1 
     sec_angle -= 6 
-
     clock.tick(60)
-
 pygame.quit()
